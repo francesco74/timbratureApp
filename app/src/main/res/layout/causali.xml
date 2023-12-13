@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llCausale"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+
+    <TextView
+        android:id="@+id/tvCodice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="codice"
+        android:textSize="@dimen/large_text_size" />
+
+    <TextView
+        android:id="@+id/tvDescrizione"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="descrizione"
+        android:textSize="@dimen/large_text_size" />
+</LinearLayout>

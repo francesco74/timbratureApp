@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Timbrature</string>
+    <string name="title_activity_timbrature">Timbrature</string>
+    <string name="google_maps_key">AIzaSyAH56W2Bb8qMgcpiTmiUvmFPiZHqq45V1Y</string>
+    <string name="nessuna_causale">-- nessuna causale inserita --</string>
+    <string name="SMSTimeoutMessage">Impossibile completare l\'autenticazione mediante SMS</string>
+    <string name="SMSInvalidMessage">Codice di verifica SMS non valido</string>
+    <string name="GenericErrorDescription">Si è verificato un errore inaspettato. Contattare lo sviluppatore</string>
+    <string name="SMSErrorMessage">Errore SMS</string>
+    <string name="GenericErrorMessage">Errore generico</string>
+    <string name="privacy">Privacy</string>
+    <string name="lista_timbrature">Timbrature</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:fillViewport="true" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/large_text_size"
+        android:textAlignment="center"
+        android:text="Scrittura dei dati sul tuo dispositivo" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128sp"
+        android:layout_height="128sp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/ic_usb" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Per riuscire a gestire correttamente la rotazione dello schermo, devo poter scrivere alcuni dati nella memoria del tuo cellulare.\nQuesti dati includono la lista dei marcatempo, le causali ed i tuoi dati quali nome e cognome.\n"
+        android:textSize="@dimen/small_text_size"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Questo permesso è necessario per l'utilizzo dell'APP"
+        android:textSize="@dimen/very_small_text_size"
+        android:textStyle="bold|italic"
+        android:textAlignment="center" />
+
+</LinearLayout>
+
+</ScrollView>
